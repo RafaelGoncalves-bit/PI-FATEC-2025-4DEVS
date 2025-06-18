@@ -27,34 +27,36 @@
             </div>
 
             <!-- Tabela do Carrinho -->
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th>Itens</th>
-                        <th>Preço</th>
-                        <th>Observações</th>
-                        <th>Quantidade</th>
-                        <th>Ações</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Exemplo de uma linha do carrinho -->
-                    <tr>
-                        <td>Hamburguer</td>
-                        <td>R$ 20,00</td>
-                        <td>Médio</td>
-                        <td>2</td>
-                        <td><button class="btn btn-danger-style">Deletar</button></td>
-                    </tr>
-                    <tr>
-                        <td>Fritas</td>
-                        <td>R$ 10,00</td>
-                        <td>Grande</td>
-                        <td>1</td>
-                        <td><button class="btn btn-danger-style">Deletar</button></td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="table-responsive">
+              <table class="table table-striped">
+                  <thead>
+                      <tr>
+                          <th>Itens</th>
+                          <th>Preço</th>
+                          <th>Observações</th>
+                          <th>Quantidade</th>
+                          <th>Ações</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <!-- Exemplo de uma linha do carrinho -->
+                      <tr>
+                          <td>Hamburguer</td>
+                          <td>R$ 20,00</td>
+                          <td>Médio</td>
+                          <td>2</td>
+                          <td><button class="btn btn-danger-style">Deletar</button></td>
+                      </tr>
+                      <tr>
+                          <td>Fritas</td>
+                          <td>R$ 10,00</td>
+                          <td>Grande</td>
+                          <td>1</td>
+                          <td><button class="btn btn-danger-style">Deletar</button></td>
+                      </tr>
+                  </tbody>
+              </table>
+            </div>
 
             <!-- Total -->
             <div class="d-flex justify-content-between align-items-center mt-4">

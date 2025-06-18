@@ -209,6 +209,13 @@ button.btn:hover {
   color: white;
 }
 
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 10px;
+}
+
+
 /* ======================== */
 /*     LOGIN - ESPECÍFICO   */
 /* ======================== */
